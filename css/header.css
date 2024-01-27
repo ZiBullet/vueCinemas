@@ -98,6 +98,9 @@
     flex-direction: column;
     gap: 20px;
   }
+  .header__nav-logo {
+    padding-top: 20px;
+  }
   
   .header__nav-list-item-link {
     padding: 30px 15px; 
