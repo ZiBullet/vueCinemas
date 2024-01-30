@@ -20,11 +20,13 @@
   --RR: "RR", sans-serif;
   --RM: "RM", sans-serif;
 }
+
 body {
   background: var(--bg);
   color: var(--white);
   font-family: var(--CR);
 }
+
 .container {
   max-width: 1140px;
   width: 100%;
@@ -32,11 +34,13 @@ body {
   padding: 0 15px;
   margin: 0 auto;
 }
+
 .btn {
-    cursor: pointer;
-    width: 166px;
-    height: 46px;
-    border-radius: 5px;
+  cursor: pointer;
+  width: 166px;
+  height: 46px;
+  padding: 24px;
+  border-radius: 5px;
   outline: none;
   border: none;
   background: var(--orange);
@@ -45,8 +49,12 @@ body {
   font-size: 14px;
   font-weight: 500;
   transition: .3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .btn:hover {
-    background: var(--bg);
-    color: var(--white);
+  background: var(--bg);
+  color: var(--white);
 }

@@ -1,0 +1,54 @@
+.widow {
+    position: relative;
+    padding: 42px 0;
+    height: 500px;
+}
+
+.widow__shade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #DEF7FF 0%, #F4FCFF 45.64%, rgba(255, 255, 255, 0) 100.72%);
+}
+
+.widow__bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.widow__wrap {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.widow__logo {
+    max-width: 445px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.widow__text {
+    max-width: 558px;
+    width: 100%;
+    color: var(--black);
+    font-family: var(--RR);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 55px;
+}
+@media screen and (max-width: 768px) {
+    .widow__shade {
+        background: linear-gradient(90deg, #DEF7FF 0%, #F4FCFF 100%, rgba(255, 255, 255, 0) 0);
+    }
+    .widow__bg {
+        display: none;
+    }
+    .widow__wrap {
+        align-items: center;
+    }
+}
